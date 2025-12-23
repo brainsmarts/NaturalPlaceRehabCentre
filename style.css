@@ -47,6 +47,7 @@ html, body {
 .header-book-button {
     font-size: medium;
     border: none;
+    background:none;
 }
 
 div.header-book{
