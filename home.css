@@ -15,48 +15,51 @@
 }
 
 .hero-title {
-    width: 30vw;
+    width: 50vw;
     color: var(--blue);
-    font-size: xxx-large;
+    font-size: 4rem;
     text-align: center;
     margin: 5vh;
 }
 
 .hero-paragraph {
     color: white;
-    font-size: x-large;
-    width: 50vw;
+    font-size: 2rem;
+    width: 70vw;
     text-align: center;
 }
 
 .content-div {
-    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content:first baseline;
+
 }
 .content-header {
-    width: 100vw;
+    width: 100;
     background: var(--blue);
-    height: 10vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2rem 1rem;
 }
 
 .content-title {
-    font-size: xx-large;
+    font-size: 2.5rem;
+    margin: 0; 
+    text-align: center;
 }
 
 .content-list {
-    font-size: x-large;
+    font-size: 2rem;
     width: 100vw;
     height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 3rem 1rem;
 }
 
 .content-text {

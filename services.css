@@ -1,5 +1,5 @@
 div.service-div {
-    height: 20vh;
+    min-height:5rem;
     width: 96vw;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
     margin-top: 3vh;
@@ -11,26 +11,31 @@ div.service-div {
 
 @media (min-width: 768px) {
     div.service-div {
-        height: 20vh;
-        width: 44vw;
+        min-height: 10rem;
+        width: 96%;
         box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
         margin-top: 3vh;
-        margin-right: 2vw;
-        margin-left:2vw;
         background-color: white;
         padding: 2%;
     }
 }
 
 .service-title {
-    font-size: xx-large;
+    font-size: 2rem;
     filter: none;
     margin-bottom: 1vh;
 }
 
-.service-text .prices-text{
-    font-size: large;
-    filter:none;
+p.service-text {
+    font-size: 1rem;
+}
+
+p.service {
+    font-size: 1rem;
+}
+
+p.price {
+    font-size: 1rem;
 }
 
 .service-container {
@@ -38,6 +43,7 @@ div.service-div {
     /* Default: 1 column for mobile (1fr fills the width) */
     grid-template-columns: 1fr; 
     gap: 20px;
+    place-items: center;
   }
   
   /* For screens wider than 768px (tablets/desktops) */
@@ -69,7 +75,7 @@ div.service-div {
 
 
 .service-header {
-    width: 100vw;
+    width: 100%;
     background: var(--blue);
     height: 10vh;
     display: flex;
@@ -81,7 +87,7 @@ div.service-div {
 
 .service-header-button {
     border: none;
-    font-size: large;
+    font-size: 2rem;
     background: none;
     margin-left: 3vw;
     margin-right: 3vw;
@@ -93,7 +99,7 @@ div.service-div {
 
 .service-header-text {
     color: white;
-    font-size: x-large;
+    font-size: 30rem;
 }
 
 .content-div {
