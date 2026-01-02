@@ -78,6 +78,29 @@ div.header-book{
     background-color: #222;
     color: #fff;
     padding: 40px 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.info {
+    margin-top: 2rem;
+}
+
+@media(min-width: 768px) {
+    .footer {
+        background-color: #222;
+        color: #fff;
+        padding: 40px 10%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction:row;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .info {
+        margin-top: 0rem;
+    }
 }
 
 .footer h6 {
@@ -90,3 +113,9 @@ div.header-book{
 .footer p {
     font-size: 1rem;
 }
+
+gmp-map {
+    height: 13rem;
+    width: 18rem;
+}
+  
