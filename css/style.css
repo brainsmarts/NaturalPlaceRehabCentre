@@ -9,6 +9,7 @@
 
 html, body {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
     color: #222;
 }
 
@@ -60,6 +61,12 @@ div.header-book{
     border-style: solid;
     border-radius: 5%;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .desktop-text {
+        display: none;
+    }
 }
 
 .header-book:hover {
