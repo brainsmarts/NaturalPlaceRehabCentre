@@ -42,8 +42,10 @@ html, body {
 }
 
 .logo {
-    height: 10vh;
+    max-height: 10vh;
+    max-width: 15vh;
 }
+
 
 .header-book-button {
     font-size: 1rem;

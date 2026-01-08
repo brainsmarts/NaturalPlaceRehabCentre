@@ -1,6 +1,6 @@
 div.service-div {
     min-height: 33rem;
-    width: 96vw;
+    width: 90%;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
     margin-top: 3vh;
     margin-right: 2vw;
@@ -22,8 +22,8 @@ img.image {
 
 @media (min-width: 1000px) {
     div.service-div {
-        min-height: 40rem;
-        width: 96%;
+        min-height: 44rem;
+        width: 90%;
         box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
         margin-top: 3vh;
         background-color: white;
@@ -75,7 +75,7 @@ p.price {
         font-size: 1rem;
         text-align: center;
         padding-bottom: 1rem;
-        height: 8rem;
+        height: 12rem;
     }
 }
   
@@ -83,8 +83,8 @@ p.price {
   @media (min-width: 1500px) {
     .service-container {
       /* Change to 2 equal columns */
-      padding-left: 8rem;
-      padding-right: 8rem;
+      padding-left: 30rem;
+      padding-right: 30rem;
       grid-template-columns: 1fr 1fr 1fr; 
     }
 
@@ -93,7 +93,7 @@ p.price {
         font-size: 1rem;
         text-align: center;
         padding-bottom: 1rem;
-        height: 8rem;
+        height: 12rem;
     }
   }
 
