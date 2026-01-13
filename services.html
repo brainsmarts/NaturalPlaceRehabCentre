@@ -16,9 +16,9 @@
             <div class="nav-right">
                 <a class="nav-link" href="index.html">Home</a>
                 <a class="nav-link">Services</a>
-                <div class="header-book">
-                    <button class="header-book-button">Book<span class="desktop-text"> Now </span>→</button>
-                </div>
+                <a class="header-book-button" href="https://naturalplacerehab.janeapp.com/">
+                Book<span class="desktop-text"> Now </span>→
+                </a>
             </div>
 
         </div>
@@ -199,4 +199,10 @@
             </iframe>
         </div>
     </body>
+    <script>
+        document.querySelector(".header-book-button")
+  .addEventListener("click", () => {
+    window.location.href = "/book";
+  });
+    </script>
 </html>

@@ -49,20 +49,14 @@ html, body {
 
 .header-book-button {
     font-size: 1rem;
-    border: none;
-    background:none;
-}
-
-div.header-book{
-    font-size: medium;
+    text-decoration: none;
     padding: 7px 20px;
     background-color: white;
-    margin-left: 1vw;
     color: black;
-    border: var(--blue);
-    border-style: solid;
+    border: var(--blue) solid;
     border-radius: 5%;
     cursor: pointer;
+    z-index: 99;
 }
 
 @media (max-width: 768px) {
