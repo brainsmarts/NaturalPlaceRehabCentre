@@ -66,8 +66,8 @@ p.price {
 @media (min-width: 1000px) {
     .service-container {
       /* Change to 2 equal columns */
-      padding-left: 5rem;
-      padding-right: 5rem;
+      padding-left: 7.5rem;
+      padding-right: 7.5rem;
       grid-template-columns: 1fr 1fr; 
     }
 
@@ -80,11 +80,11 @@ p.price {
 }
   
   /* For screens wider than 768px (tablets/desktops) */
-  @media (min-width: 1500px) {
+  @media (min-width: 1550px) {
     .service-container {
       /* Change to 2 equal columns */
-      padding-left: 30rem;
-      padding-right: 30rem;
+      padding-left: 20rem;
+      padding-right: 20rem;
       grid-template-columns: 1fr 1fr 1fr; 
     }
 
